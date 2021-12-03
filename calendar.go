@@ -1,9 +1,24 @@
+/*
+Calendar is tiny library to create calendar.
+
+*/
 package calendar
 
 import (
 	"time"
 )
 
+// CalendarDays return days like `cal` calendar.
+//
+// The days like `cal` calendar are:
+//
+//      December 2021
+//   Su Mo Tu We Th Fr Sa
+//   28 29 30  1  2  3  4
+//    5  6  7  8  9 10 11
+//   12 13 14 15 16 17 18
+//   19 20 21 22 23 24 25
+//   26 27 28 29 30 31  1
 func CalendarDays(y int, m time.Month) []time.Time {
 	b := beginDay(y, m)
 	e := endDay(y, m)
