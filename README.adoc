@@ -1,0 +1,37 @@
+= TODO
+:sectnums:
+:toc: left
+
+This is a common template repository.
+
+TODO
+
+== Usage
+
+[source,bash]
+----
+TODO
+----
+
+== Installation
+
+[source,bash]
+----
+TODO
+----
+
+== Development
+
+=== How to build
+
+[source,bash]
+----
+TODO
+----
+
+=== How to test
+
+[source,bash]
+----
+TODO
+----
